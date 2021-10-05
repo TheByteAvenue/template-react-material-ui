@@ -8,7 +8,12 @@
         "node": true
     },
     "rules": {
-        "prettier/prettier": "error",
+        "prettier/prettier": [
+            "error",
+            {
+                "endOfLine": "auto"
+            }
+        ],
         "jsx-a11y/href-no-hash": 0,
         "no-console": 0,
         "react/jsx-props-no-spreading": 0,
